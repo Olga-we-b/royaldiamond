@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="scss/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;800&display=swap" rel="stylesheet">
+    <!-- <script src="app.js" defer></script> -->
+    <script src="mobile-navigation.js" defer></script>
+    <script src="form.js" defer></script>
+</head>
+<body>
+    <nav id="desktop-nav" class="flex">
+        <ul class="flex desktop-nav-links">
+
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="/healtycooking.html">Healthy Cooking</a></li>
+            <li><a class="active" href="/contact.html">Contact</a></li>
+        </ul>
+        <div class="language">English</div>
+        <div class="menu-icon flex">
+            <img src="images/menu-icon.svg">
+            <img src="images/close-icon.svg">
+        </div>
+    </nav>
+    <div class="mobile-menu-wrapper" style="display: none;"> 
+    <nav class="mobile-menu flex">
+     
+            <ul class="mobile-nav-links">
+
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a  href="/healtycooking.html">Healthy Cooking</a></li>
+                <li><a class="active" href="#">Contact</a></li>
+            </ul>
+   
+    </nav>
+</div>  
+
+
+    <div class="header">
+        <img src="images/header.png" class="parallax">
+    </div>
+
+
+    <main id="swup" class="overflow transition-fade">
+        <div class="content-wrapper">
+            <div class="breadcrumps flex">
+                <a href="index.html">Home</a> <span>/</span> Contact
+                <img src="images/1-basilia.png">
+            </div>
+            <div class="second-description flex">
+                <img src="images/3-tomato.png">
+
+                <div class="transparent-section flex">
+                    <div class="about-us contact-details flex">
+                        <p>
+                            <b>Gulf Marketing Group – Saudi Arabia</b><br>
+                            <b>Address:</b> Abdullah Balkhair st. Rawdah dist. 23433-7620<br>
+                            <b>P.O.Box:</b> 3934 <br>
+                            <b>Phone/Fax:</b> <a href="tel:0000">(+966) 12 668 44 30 / 12 668 96 50</a><br>
+                            <b>Mobile:</b> <a href="tel:0000">(+966) 12 555 646 169</a> <br>
+                            <b>E-mail:</b>  sales@gulfmgroup.com <br>
+                            <b>Website:</b> <a href="#"> www.gulfmgroup.com</a>
+                        </p>
+                        <p>
+                            <b>Gulf Marketing Company – Egypt</b><br>
+                            <b>Address:</b> 85 Mustafa Elnahas St., Nasr City, Cairo, Egypt<br>
+                            <b>Phone/Fax:</b> <a href="tel:0000">(+202) 227 520 75</a><br>
+                            <b>Mobile:</b>  <a href="tel:0000">(+201) 228 430 001</a> <br>
+                            <b>E-mail:</b>  egyptsales@gulfmgroup.com <br>
+                            <b>Website:</b> <a href="#"> www.gulfmgroup.com</a>
+                        </p>
+                        <p>
+                            <b>Gulf Steam Magic – Bahrain</b><br>
+                            <b>Address:</b> Tubli – Building 150 – Road 905 – Block 709 – Flat 21<br>
+                            <b>Phone/Fax:</b>  <a href="tel:0000">(+973) 176 430 765</a><br>
+                            <b>Mobile:</b> <a href="tel:0000">(+973) 176 430 75</a> <br>
+                            <b>E-mail:</b>  bahrainsales@gulfmgroup.com <br>
+                            <b>Website:</b> <a href="#"> www.gulfmgroup.com</a>
+                        </p>
+
+    
+                    </div>
+                  
+
+                    <div class="gray-background"></div>
+                    
+                </div>
+                <form action="post" autocomplete="off">
+                    <h2>Wanna stay in touch?</h2>
+
+                    <div class="file">
+                        <input type="text" data-active="false" name="name" autocomplete="off" required> 
+                        <label for="name" class="label-name">
+                           <span class="content-name"> Name </span>
+                        </label>
+                    </div>
+                    <div class="file">
+                        <input type="text" data-active="false" name="Email" autocomplete="off" required> 
+                        <label for="name" class="label-name">
+                           <span class="content-name"> Email </span>
+                        </label>
+                    </div>
+                    <div class="file">
+                        <input type="text" data-active="false" name="phone" autocomplete="off" required> 
+                        <label for="name" class="label-name">
+                           <span class="content-name"> Phone </span>
+                        </label>
+                    </div>
+                    
+                    <div class="button-div flex">
+                        <button></button>
+                        <p class="button-text">Send</p>
+                    </div>
+                </form>
+
+            </div>
+
+            <div class="where-to-find flex">
+                <img id="map" src="images/map.svg">
+                <div class="find-us">
+                    <img src="images/17.png" alt="">
+                    <h2>You can find us here!</h2>
+                    <ul>
+                        <li>Bahrain</li>
+                        <li>Egypt</li>
+                        <li>Kingdom of Saudi Arabia</li>
+                        <li>Kuwait</li>
+                        <li>United Arab Emirates</li>
+                    </ul>
+                </div>
+                <img id="basilia" src="images/1-basilia.png" alt="">
+
+            </div>
+
+
+
+        <footer class="flex">
+            <p>© 2022 Gulf Marketing Jeddah</p>
+            <ul class="menu-footer flex">
+                <li><a title="Homepage" href="#">Home</a></li>
+                <li><a title="Products" href="#">Products</a></li>
+                <li><a title="Healty Cooking" href="#">Healthy Cooking</a></li>
+                <li><a class="active" title="Contact" href="#">Contact</a></li>
+               
+                </ul>
+        </footer>
+    </main>
+
+</body>
+</html>

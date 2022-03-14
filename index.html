@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royal Diamond</title>
+    <link rel="stylesheet" href="scss/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;800&display=swap" rel="stylesheet">
+    <!-- <script src="app.js" defer></script> -->
+    <script src="mobile-navigation.js" defer></script>
+</head>
+<body>
+    <nav id="desktop-nav" class="flex">
+        <ul class="flex desktop-nav-links">
+
+            <li><a class="active" href="/index.html">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="/healtycooking.html">Healthy Cooking</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+        </ul>
+        <div class="language">English</div>
+        <div class="menu-icon flex">
+            <img src="images/menu-icon.svg">
+            <img src="images/close-icon.svg">
+        </div>
+    </nav>
+    <div class="mobile-menu-wrapper" style="display: none;"> 
+    <nav class="mobile-menu flex">
+     
+            <ul class="mobile-nav-links">
+
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="healtycooking.html">Healthy Cooking</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+   
+    </nav>
+</div>  
+
+
+    <div class="header">
+        <img src="images/header.png" class="parallax">
+    </div>
+
+
+    <main id="swup" class="overflow transition-fade">
+
+
+        <div class="first-description flex">
+            <h2>
+                <span class="green-text">Combination of the highest German quality,</span> <br>the most advanced technology and luxury design
+            </h2>
+            <p>Professional cookware dedicated for both the chefs and domestic use. We invite you to familiarize yourself with our offer. Combining cutting-edge technologies with traditional craftsmanship, we offer you a product that meets your highest requirements, regardless of whether you are the chef at work or at home.</p>
+
+        </div>
+        <div class="second-description flex">
+            <div class="transparent-section flex">
+                <img src="images/1-basilia.png">
+                <div class="about-us">
+                    <h2>About us</h2>
+                    <p>Our biggest inspiration is family.
+                        Family reminds us who we are, to who we belong and where we are going to.
+                        Family makes us full and happy, by being the most important part of human life. <br><br> <span class="green-text">That’s why we believe it’s our obligation to give them only the best.</span><br><br>Based on German knowledge and perfection in every detail we give you the best tool to keep your family healthy, happy and well cared for.</p>
+
+                </div>
+                <div class="gray-background"></div>
+                
+            </div>
+            <div class="black-section">
+
+                <h3>our products</h3>
+                <div class="two-columns flex">
+                    <p>We are the best choice for everybody who cares about the highest quality.
+                    Royal Diamond cookware is developed, designed, produced and tested in Germany.</p>
+                    <p>In our company, we connect precise traditional handmade craftsmanship with best modern technology to give you the most innovative, smart and luxury cookware.</p>
+                </div>
+                <div class="bottom-row">
+                    <h3>Our benefits</h3>
+                    <p>Our customers are enjoying benefits of unique and premium quality thanks to our efforts. And we are grateful for our joint journey. Royal Diamond means made with precision in every aspect, made by being always focused on your needs and benefits:</p>
+                    <ul class="benefits-list">
+                        <li>- non-stick layer</li>
+                        <li>- comfortable and heat-resistant handle</li>
+                        <li>- keeps food full of life-giving vitamins and minerals</li>
+                        <li>- ergonomic shapes</li>
+                        <li>- easy to clean</li>
+                        <li>- energy-saving and environmentally-friendly made possible by fast heating technology</li>
+                        <li>- designed to be safe for children</li>
+                        <li>- extremely resistant and long-lasting</li>
+                        <li>- best cooking results</li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="products-section flex">
+            <img id="tomato" src="images/3-tomato.png">
+            
+            <div class="products-presentation flex">
+                <div class="pans">
+                    <a href="#"><img src="images/Pfannen.png" alt="pan">
+                    <h3>Pans</h3></a>
+                </div>
+                <div class="pots">
+                    <a href="#"><img src="images/Topfe.png" alt="pot">
+                    <h3>Pots</h3></a>
+                </div>
+                <div class="roasting">
+                    <a href="#"><img src="images/Brater.png" alt="roasting dish">
+                    <h3>Roasting Dishes</h3></a>
+                </div>
+                <div class="pressure">
+                    <a href="#"><img src="images/Schnellkochtöpfe.png" alt="pressure cooker">
+                    <h3>Pressure Cookers</h3></a>
+                </div>
+                <div class="lids">
+                    <a href="#"><img src="images/Deckel.png" alt="pan">
+                    <h3>Lids</h3></a>
+                </div>
+                <div class="Accessories">
+                    <a href="#"><img src="images/akcesoria.png" alt="Accessories">
+                    <h3>Accessories</h3></a>
+                </div>
+                <img src="images/17.png" alt="">
+            </div>
+            
+            <img id="not-tomato" src="images/2-rosm.png">
+        </div>
+
+        <footer class="flex">
+            <p>© 2022 Gulf Marketing Jeddah</p>
+            <ul class="menu-footer flex">
+                <li><a class="active" title="Homepage" href="#">Home</a></li>
+                <li><a title="Products" href="#">Products</a></li>
+                <li><a title="Healty Cooking" href="#">Healthy Cooking</a></li>
+                <li><a title="Contact" href="#">Contact</a></li>
+               
+                </ul>
+        </footer>
+    </main>
+<script>
+    const swup = new Swup();
+</script>
+</body>
+</html>

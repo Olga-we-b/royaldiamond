@@ -1,0 +1,17 @@
+.first-description{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10% 30px;
+    h2{
+        padding-bottom: 25px;
+    }
+
+    @include responsive(desktop){
+        padding: 10em 20%;
+        h2{
+            padding-bottom: 50px;
+        }
+    }
+}

@@ -1,0 +1,79 @@
+.products-section{
+
+    justify-content: center;
+
+    a, a:link, a:active{
+        text-decoration: none;
+        color: black;
+    }
+
+    #tomato, #not-tomato{
+        display: none;
+    }
+    .products-presentation{
+        flex-direction: column;
+        align-items: center;
+
+        div{
+            padding-bottom: 15px;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            transform: scale(.8);
+
+
+            h3{
+                
+                justify-self: flex-start;
+            }
+
+            img{
+                transform: scale(.8);
+            }
+        }
+    }
+@include responsive(tablet){
+    .products-presentation{
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+        padding: 0 5%;
+        div{
+            width: 25%;
+        }
+        img:last-child{
+            display: none;
+        }
+    }
+
+}
+@include responsive(desktop){
+    justify-content: space-between;
+    padding-block: 5vh;
+    #tomato{
+        align-self: flex-start;
+    }
+    #not-tomato{
+        align-self: flex-end;
+
+    }
+
+    #tomato, #not-tomato{
+        display: inline-block;
+        transform: scale(1);
+    }
+    .products-presentation{
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        div{
+            width: 25%;
+        }
+        img:last-child{
+            display: none;
+        }
+    }
+}
+    
+}

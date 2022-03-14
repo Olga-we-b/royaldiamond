@@ -1,0 +1,53 @@
+@import 'breakpoints';
+@import 'navigation';
+@import 'home/header';
+@import 'home/first-section';
+@import 'home/second-section';
+@import 'home/products-section';
+@import 'footer';
+@import 'menu-mobile';
+@import 'swup';
+
+@import 'healthy/layout';
+@import 'contact/layout';
+@import 'contact/form';
+
+:root{
+    --brand-green: #4F7314;
+    --vibrant-green: #75bb03;
+    --light: #f8f9fa;
+}
+body{
+    width: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato";
+}
+.flex {
+    display: flex;
+}
+a, a:link, a:active{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    font-weight: bold;
+    color: var(--vibrant-green);
+}
+
+ul{
+    list-style: none;
+}
+
+.green-text{
+    color: #4F7314;
+    font-weight: bold;
+}
+.active{
+    font-weight: bold;
+    
+}

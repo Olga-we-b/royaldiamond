@@ -1,0 +1,89 @@
+.second-description{
+    flex-direction: column;
+    img:first-of-type{
+        display: none;
+    }
+    .contact-details{
+        flex-direction: column;
+        p{
+            padding-bottom: 25px;
+            line-height: 1.5em;
+            b:first-child, a{
+                color: var(--vibrant-green);
+
+            }
+
+        }
+    }
+    form{
+        margin-top: 0;
+        height: 100%;
+        width: 100%;
+    }
+    @include responsive(desktop){
+        flex-direction: row;
+        padding: 5%;
+
+        img:first-of-type{
+            display: inline;
+            position: absolute;
+            left: 0;
+            top: 50px;
+        }
+        .contact-details{
+            flex-direction: row;
+            gap: 5%;
+            width: 100%;
+            p{
+                padding-bottom: 0;
+                line-height: 1.4em;
+            }
+        }
+        form{
+            height: 50%;
+            margin-top: -10%;
+            // margin-right: 10%;
+        }
+
+ 
+    
+    }
+}
+.where-to-find{
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    width: 100vw;
+    #map, #basilia{
+        display: none;
+    }
+    ul{
+        list-style-type: disc;
+        padding-top: 25px;
+        li{
+            padding-bottom: 10px;
+        }
+    }
+    @include responsive(desktop){
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 5vh;
+        gap: 10%;
+        
+        #basilia{
+            display: inline;
+            align-self: flex-end;
+
+        }
+        #map{
+            display: inline;
+            width: 350px;
+
+        }
+        h2{
+            padding-top: 10%;
+        }
+
+
+    }
+}

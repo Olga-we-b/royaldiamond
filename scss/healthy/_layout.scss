@@ -1,0 +1,69 @@
+
+.breadcrumps{
+    height: 35vh;
+    align-items: center;
+    padding: 0 10%;
+
+    a{
+        color: var(--vibrant-green);
+    }
+    span{
+        padding: 0 1em;
+    }
+    img{
+        display: none;
+        @include responsive(desktop){
+            display: inline;
+            position: absolute;
+            right: 0;
+        }
+    }
+}
+
+.grey-section{
+    background: var(--light);
+    padding: 10%;
+    span{
+        display: block;
+        padding: 25px 0;
+    }
+    .two-col-par{
+        @include responsive(tablet){
+            display: flex;
+            flex-wrap: wrap;
+            gap: 25px;
+
+            p{
+                width: 45%;
+            }
+        }
+    }
+
+    @include responsive(desktop){
+        padding: 5% 10%;
+    }
+}
+.third-section{
+    flex-direction: column;
+    align-items: center;
+    gap: 10vh;
+    padding-bottom: 5vh;
+    p{
+        text-align: center;
+        padding: 25px 10%;
+    }
+    #big-pan{
+        display: none;
+    }
+    @include responsive(desktop){
+        #small-pan{
+            display: none;
+        }
+        #big-pan{
+            display: block;
+        }
+    }
+
+
+    
+}
